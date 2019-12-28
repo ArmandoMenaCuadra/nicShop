@@ -4,6 +4,11 @@
   width: 100%;
 }
 
+h1
+{
+  font-size: 3vw;
+}
+
 .fixed-background
 {
   background-image: url("./public/assets/background.png");
