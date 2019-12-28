@@ -40,6 +40,8 @@ app.get('/buy', function (req, res) {
 
 app.use(express.static(__dirname + '/'));
 
-app.listen(8080, function () {
-  console.log('Example app listening on port 3000!');
+var port = process.env.PORT || 3000;
+
+app.listen(port, function () {
+  console.log('Boot up!');
 });
