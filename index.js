@@ -13,9 +13,9 @@ let transport = nodemailer.createTransport({
 
 const message = {
   from: 'nicaragua.products.prem@gmail.com', // Sender address
-  to: 'durancdr96@gmail.com',                // List of recipients
-  subject: 'Design Your Model S | Tesla',    // Subject line
-  text: 'Have the most fun you can in a car. Get your Tesla today!' // Plain text body
+  to: 'amc54@hotmail.com',                   // List of recipients
+  subject: 'Productos Nicaraguenses compra',    // Subject line
+  text: 'Un usuario ha intentado comprar un producto en la web. Podrias recibir un pedido dentro de poco' // Plain text body
 };
 
 function sendMail()
